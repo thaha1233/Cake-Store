@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <!-- Google font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Animate.css-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
+
+
+  <title>Cake store</title>
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="images/main-logo.png" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">about us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">contact us</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              pages
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">About us</a></li>
+              <li><a class="dropdown-item" href="#">blog</a></li>
+              <li><a class="dropdown-item" href="#">Singel post</a></li>
+              <li><a class="dropdown-item" href="#">contact us</a></li>
+              <li><a class="dropdown-item" href="#">shop</a></li>
+            </ul>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <i class="fa-sharp fa-solid fa-cart-shopping"></i>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- section header -->
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <div class="content">
+          <span>- FRESHLY BAKED EVERY MORNING</span>
+          <h1 class="animate__animated animate__bounce">delicious cupcakes for<br> you !!</h1>
+          <p>A gorgeous selection of our favorites for a client to send as a new year’s gift.A gorgeous selection of our
+            favorites for a client to send as a new year’s gift</p>
+          <a href="#"><button>Shop now</button></a>
+        </div>
+        <img src="images/banner1.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <div class="content">
+          <span>- FRESHLY BAKED EVERY MORNING</span>
+          <h1 class="animate__animated animate__bounce">delicious cupcakes for<br> you !!</h1>
+          <p>A gorgeous selection of our favorites for a client to send as a new year’s gift.A gorgeous selection of our
+            favorites for a client to send as a new year’s gift</p>
+          <a href="#"><button>Shop now</button></a>
+        </div>
+        <img src="images/banner2.jpg" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- secion about us -->
+
+  <div class="sec">
+    <h1>about <span>us</span></h1>
+  </div>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#">Our Missions</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Our Values</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#">Our Goals</a>
+    </li>
+  </ul>
+
+
+  <div class="conteiner">
+    <img src="images/tabimg.jpg" alt="">
+    <div class="con">
+      <h3>This products for all be happy and peace</h3>
+      <p>A gorgeous selection of our favorites for a client to send as a new year’s gift. A gorgeous selection of our
+        favorites for a client to send as a new year’s gift. A gorgeous selection of our favorites for a client to send
+        as a new year’s gift.</p>
+
+      <button>read more</button>
+
+    </div>
+  </div>
+
+  <!-- sec Card -->
+
+  <div class="sec">
+    <h1>Best <span>Product</span></h1>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/cake-item1.jpg" alt="">
+      <h3>Black Forest Cupcake</h3>
+      <p>Cake - Pastries</p>
+      <span>12$</span>
+    </div>
+
+    <div class="card">
+      <img src="images/cake-item2.jpg" alt="">
+      <h3>Black Forest Cupcake</h3>
+      <p>Cake - Pastries</p>
+      <span>12$</span>
+    </div>
+
+    <div class="card">
+      <img src="images/cake-item3.jpg" alt="">
+
+      <h3>Black Forest Cupcake</h3>
+      <p>Cake - Pastries</p>
+      <span>12$</span>
+    </div>
+
+
+    <div class="card">
+      <img src="images/cake-item4.jpg" alt="">
+      <h3>Black Forest Cupcake</h3>
+      <p>Cake - Pastries</p>
+      <span>12$</span>
+
+    </div>
+  </div>
+
+  <!-- section map  -->
+  <div class="sec">
+    <h1>Our<span>Location</span></h1>
+  </div>
+  <div class="map">
+    <img src="images/googlemap.jpg" alt="">
+  </div>
+
+
+
+  <!-- Footer -->
+  <div class="sec">
+    <h1>contact</h1>
+  </div>
+
+
+  <footer class="text-center text-lg-start bg-white text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>this Design is test for website taha ik </span>
+      </div>
+      <!-- Left -->
+
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 link-secondary">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+
+    <!-- Section: Links  -->
+    <section>
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3 text-secondary"></i>Company name
+            </h6>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque perferendis aliquam quam praesentium
+              quos facere et. Mollitia doloremque ipsum deserunt odit praesentium ea consequatur iusto?
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">cake</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">cake</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">cake</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">cake</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3 text-secondary"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3 text-secondary"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3 text-secondary"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3 text-secondary"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgb(163, 14, 14,);">
+      © 2022 Copyright: Taha ik
+      
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+
+</body>
+
+</html>
